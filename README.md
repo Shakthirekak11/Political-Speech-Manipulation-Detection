@@ -9,16 +9,16 @@ This project focuses on detecting and analyzing manipulative language in politic
 
 ---
 
-## 🧠 Core Objectives
+## Core Objectives
 
-- ✅ **Classify** political statements as *true*, *false*, or *misleading*  
-- 🔍 **Detect** hostile/manipulative language in tweets  
-- 📰 **Analyze** media framing and bias in political news articles  
-- 🎤 **Extract** rhetorical themes from political speeches
+-  **Classify** political statements as *true*, *false*, or *misleading*  
+-  **Detect** hostile/manipulative language in tweets  
+-  **Analyze** media framing and bias in political news articles  
+-  **Extract** rhetorical themes from political speeches
 
 ---
 
-## 🧾 Datasets Used
+##  Datasets Used
 
 | Dataset           | Description                                         | Use Case                                  |
 |------------------|-----------------------------------------------------|-------------------------------------------|
@@ -29,7 +29,7 @@ This project focuses on detecting and analyzing manipulative language in politic
 
 ---
 
-## 🛠️ Techniques & Models
+##  Techniques & Models
 
 - **NLP Pipelines:** Tokenization, Lemmatization, NER, Sentiment Analysis  
 - **Feature Engineering:** TF-IDF vectors, hate speech lexicons, entity co-occurrence  
@@ -39,7 +39,7 @@ This project focuses on detecting and analyzing manipulative language in politic
 
 ---
 
-## 🧪 Results (Highlights)
+##  Results (Highlights)
 
 | Task                    | Best Model           | Accuracy / F1 Score | Notes                                      |
 |-------------------------|----------------------|----------------------|--------------------------------------------|
@@ -50,10 +50,3 @@ This project focuses on detecting and analyzing manipulative language in politic
 
 
 
-
-- [All The News Dataset](https://www.kaggle.com/datasets)  
-- [SHAP Interpretability](https://github.com/slundberg/shap)
-
----
-
-Let me know if you'd like me to generate this as a downloadable `README.md` file for you!
