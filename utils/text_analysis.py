@@ -1,5 +1,4 @@
-import spacy
-nlp = spacy.load("en_core_web_sm")
+
 import re
 from collections import Counter
 import numpy as np
@@ -10,8 +9,14 @@ from scipy.sparse import load_npz
 import joblib
 import streamlit as st
 
-import spacy.cli
-spacy.cli.download("en_core_web_sm")
+import spacy
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    import spacy.cli
+    spacy.cli.download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
 
 # 🔹 Emotional & Persuasive Keywords
 emotional_words = {
