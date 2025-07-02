@@ -10,12 +10,8 @@ import joblib
 import streamlit as st
 
 import spacy
-import spacy.cli
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    spacy.cli.download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm")  # works because it's now a package
+
 
 
 # 🔹 Emotional & Persuasive Keywords
