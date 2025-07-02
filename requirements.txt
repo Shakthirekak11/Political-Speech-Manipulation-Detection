@@ -9,3 +9,4 @@ wordcloud
 matplotlib
 plotly
 scipy
+datasets
