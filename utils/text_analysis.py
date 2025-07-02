@@ -10,6 +10,8 @@ from scipy.sparse import load_npz
 import joblib
 import streamlit as st
 
+import spacy.cli
+spacy.cli.download("en_core_web_sm")
 
 # 🔹 Emotional & Persuasive Keywords
 emotional_words = {
