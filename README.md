@@ -73,12 +73,13 @@ This project analyzes and flags manipulative language in political discourse—s
 
 ## 🚀 Results & Highlights
 
-| Task                      | Best Model         | Score / Insight                                 |
-| ------------------------- | ------------------ | ----------------------------------------------- |
-| ✅ Fake News Detection     | BERT-Large         | **87.3% Accuracy** - Strong context recognition |
-| 😠 Tweet Insult Detection | BERT-BiLSTM Hybrid | **93.6% F1 Score** - High real-time capability  |
-| 📰 Media Bias Prediction  | RoBERTa            | **78.9% Accuracy** - SHAP explainability        |
-| 🎙 Theme Extraction       | DistilBERT + LDA   | Identifies themes: patriotism, authority, fear  |
+| Task                     | Best Model            | Score / Insight                       |
+|--------------------------|-----------------------|----------------------------------------|
+| ✅ Fake News Detection   | Logistic Regression   | **88.8% Accuracy**  |
+| 🚨 Insult Detection      | BERT + BiLSTM         | **93.6% F1 Score**  |
+| 📰 Media Bias Detection  | Co-occurrence Analysis| Based on framing patterns (heuristic)  |
+| 🎙 Theme Extraction      | LDA + Sentiment       | Topics: *Witch Hunt, Fake News, Elections* |
+| 💬 Deep Rhetoric Class.  | DistilBERT (Trial)    | 88.8% Accuracy  |
 
 ---
 
